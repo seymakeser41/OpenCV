@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89f77478-3249-40d6-ab61-8891bd38e78b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2o3dsiBlILQObo1H7A8EtPUcjoM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Trackbar.executor": "Run",
+    "Python.aspect_ratio.executor": "Run",
+    "Python.cizim_fonksiyonları.executor": "Run",
+    "Python.görüntü_mantigi.executor": "Run",
+    "Python.kütüphaneler.executor": "Run",
+    "Python.proje1.executor": "Run",
+    "Python.resim_okuma_gösterme_kaydetme.executor": "Run",
+    "Python.video_okuma_izleme.executor": "Run",
+    "Python.windows_resize.executor": "Run",
+    "Python.yazi_yazdirma.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ŞEYMA KESER\PycharmProjects\pythonProject2\video_okuma_izleme" />
+      <recent name="C:\Users\ŞEYMA KESER\PycharmProjects\pythonProject2\dosya_okuma_gösterme_kaydetme" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89f77478-3249-40d6-ab61-8891bd38e78b" name="Changes" comment="" />
+      <created>1730102401138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730102401138</updated>
+    </task>
+    <servers />
+  </component>
+</project>
