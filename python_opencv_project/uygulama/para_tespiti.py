@@ -10,7 +10,7 @@ gray = cv2.equalizeHist(gray)#histogram eşitleme ile kontrastı arttır
 img_blur=cv2.medianBlur(gray,7)#resimdeki görültüyü azaltir
 
 
-circles= cv2.HoughCircles(img_blur, cv2.HOUGH_GRADIENT,0.1,img.shape[0]/6, param1=100, param2=20, minRadius=25,maxRadius=60 )#resmi, yontemi, cemberler arasi mesafeyi belirten ifadeyi, fonksiyona tanimli gradient degeri ve threshold degeri , min ve max yaricap ile cemberleri belirledi
+circles= cv2.HoughCircles(img_blur, cv2.HOUGH_GRADIENT,0.1,img.shape[0]/6, param1=100, param2=20, minRadius=30,maxRadius=60 )#resmi, yontemi, cemberler arasi mesafeyi belirten ifadeyi, fonksiyona tanimli gradient degeri ve threshold degeri , min ve max yaricap ile cemberleri belirledi
 
 if circles is not None:
     circles=np.uint16(np.around(circles))#belirlenen cemberleri cizdi
