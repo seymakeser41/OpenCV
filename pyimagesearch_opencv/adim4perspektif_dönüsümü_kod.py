@@ -6,6 +6,9 @@ import cv2
 
 # argüman ayrıştırıcı oluştur ve ayrıştır
 ap = argparse.ArgumentParser()
+#resminizin köşeleri aynı koordinatlara sahip olmayabilir bu yüzden çalıştırırken önce köşe koordinatlarını öğrenerek çalıştırın , bunun için adim4kosekoordinati.py dosyasını kullanın
+#c:/Users/seyma/Desktop/opencv_bolumu/pyimagesearch_opencv/adim4perspektif_dönüsümü_kod.py -i "C:\Users\seyma\Desktop\media\yamuk_resim.png" -c "[(118, 280), (301, 165), (45, 153), (225, 75)]"
+#bu şekilde bir komutla çalıştırmalısınız
 ap.add_argument("-i", "--image", help = "path to the image file")
 ap.add_argument("-c", "--coords",help = "comma seperated list of source points")
 args = vars(ap.parse_args())
