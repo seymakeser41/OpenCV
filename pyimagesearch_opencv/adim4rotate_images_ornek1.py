@@ -28,7 +28,7 @@ if len(cnts) > 0:
 	(x, y, w, h) = cv2.boundingRect(c)
 	imageROI = image[y:y + h, x:x + w]
 	maskROI = mask[y:y + h, x:x + w]
-	imageROI = cv2.bitwise_and(imageROI, imageROI,mask=maskROI)
+	imageROI = cv2.bitwise_not(imageROI, imageROI,mask=maskROI)
     #döndürme işlemi gerçekleşir
 for angle in np.arange(0, 360, 15):
 		rotated = imutils.rotate(imageROI, angle)
