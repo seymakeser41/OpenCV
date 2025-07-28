@@ -1,0 +1,29 @@
+# Derin öğrenme modelleri
+*.h5
+*.pt
+*.pth
+*.tflite
+*.ckpt
+*.pb
+*.weights
+
+# Video ve medya
+*.mp4
+*.avi
+*.mov
+
+# Arşiv dosyaları
+*.zip
+*.rar
+*.tar
+*.tar.gz
+
+# Notebook checkpoint'leri
+.ipynb_checkpoints/
+
+# Temp ve cache dosyaları
+__pycache__/
+*.log
+*.tmp
+*.bak
+.DS_Store
